@@ -11,14 +11,17 @@ class Stack:
             return false
 
     def is_full(self):
-        # Write here
+        if self.top == (self.size - 1):
+            return true
+        else:
+            return false
 
     def push(self, data):
         if not self.is_full():
             # Write code here
 
     def pop(self):
-        if not self.is_empty():
+        if self.is_empty():
             # Write code here
 
     def status(self):
