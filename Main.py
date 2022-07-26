@@ -7,7 +7,7 @@ class Stack:
     def is_empty(self):
         if self.top == 0:
             return true
-        else
+        else:
             return false
 
     def is_full(self):
